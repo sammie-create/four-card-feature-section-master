@@ -84,13 +84,13 @@ header p {
   line-height: 1.5;
 }
 
-.first-tool h3,
-.second-tool h3,
-.third-tool h3,
-.fourth-tool h3 {
+.first-tool h2,
+.second-tool h2,
+.third-tool h2,
+.fourth-tool h2 {
   color: var(--very-dark-blue);
   line-height: 2;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 .first-tool {
