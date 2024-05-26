@@ -177,19 +177,19 @@ header p {
   .tools-section {
     grid-template-columns: auto auto auto;
   }
-  .first-tool,
-  .third-tool {
-    transform: translate(0, 10rem);
-  }
+
   .first-tool {
     grid-column: 1;
+    grid-row: 1 / span 2;
+    align-self: center;
   }
   .second-tool {
     grid-column: 2;
   }
   .third-tool {
     grid-column: 3;
-    grid-row: 1;
+    grid-row: 1 / span 2;
+    align-self: center;
   }
   .fourth-tool {
     grid-column: 2;
