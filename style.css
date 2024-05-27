@@ -82,6 +82,9 @@ header p {
   font-size: 1.2rem;
   color: var(--gray-font);
   line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .first-tool h2,
@@ -109,8 +112,11 @@ header p {
   order: 3;
   border-top: 5px solid var(--orange);
 }
+.icon {
+  align-self: flex-end;
+}
 
-.icon img {
+/* .icon img {
   width: 3rem;
   position: absolute;
   right: 0;
@@ -118,7 +124,7 @@ header p {
 }
 .icon {
   position: relative;
-}
+} */
 
 /* Attribution section */
 
