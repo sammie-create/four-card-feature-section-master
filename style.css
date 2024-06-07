@@ -115,6 +115,9 @@ header p {
 .icon {
   align-self: flex-end;
 }
+.icon img {
+  width: 4rem;
+}
 
 /* .icon img {
   width: 3rem;
@@ -199,5 +202,8 @@ header p {
   }
   .fourth-tool {
     grid-column: 2;
+  }
+  .icon img {
+    width: 4.5rem;
   }
 }
